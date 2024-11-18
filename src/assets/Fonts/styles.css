@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'DIN';
+    src: url('./DIN-REGULAR.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'DIN';
+    src: url('./DIN-BOLD.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'DIN DEMI';
+    src: url('./DIN-DEMI.otf') format('opentype');
+    font-weight: regular;
+    font-style: normal;
+  }
+  
+  /* Example Usage */
+  body {
+    font-family: 'DIN', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'DIN', sans-serif;
+    font-weight: bold;
+  }
+  
