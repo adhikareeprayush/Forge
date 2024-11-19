@@ -1,4 +1,4 @@
-import fabLogo from "../assets/fab_logo.png"
+import fabLogo from "../assets/Images/India_s Largest Fab Lab Network.png"
 
 const IndiaLargest = () => {
     return (

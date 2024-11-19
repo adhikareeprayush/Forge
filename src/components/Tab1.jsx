@@ -1,13 +1,14 @@
-import forgeLogoFill from "../assets/Image 31.png";
-import forgeLogoWhite from "../assets/Your paragraph text (1).png";
-import fortLogoFill from "../assets/FORT Logo.png";
-import fortLogoWhite from "../assets/Image 32.png";
-import innoLogoWhite from "../assets/Image 34.png"
-import innoLogoFill from "../assets/Screenshot 2024-10-18 at 3.24.12 PM.png"
-import forgefactory from "../assets/forgefactory.png"
-import forthosur from "../assets/forthosur.png"
-import fortSubLogo1 from "../assets/Image 35.png"
-import fortSubLogo2 from "../assets/Image 36.png"
+import forgeLogoFill from "../assets/Images/FORGE Logo (2) (1).png";
+import forgeLogoWhite from "../assets/Images/Forge Logo White (2).png";
+import fortLogoFill from "../assets/Images/FORT Logo.png";
+import fortLogoWhite from "../assets/Images/FORT Logo White.png";
+import innoLogoWhite from "../assets/Images/iNNOVATETN Logo White 2022-04.png"
+import innoLogoFill from "../assets/Images/InnovateTN Logo (2) (1).png"
+import forgefactory from "../assets/Images/FORGE Map.png"
+import fortMap from "../assets/Images/FORT Map.png"
+import innovateMap from "../assets/Images/InnovateTN Map.png"
+
+
 import { useState } from "react";
 
 const Tab1 = () => {
@@ -102,13 +103,15 @@ const Tab1 = () => {
                     tabIndex="0"
                 >
                     <div className="d-flex flex-column align-items-start gap-2 w-50">
-                        <div className="head">
-                            Force of Rapid Transformation - SIPCOT Industrial Innovation Centres
+                        <div className="head ">
+                            HWjunction @ HQ, Forge
                         </div>
-                        <p>The FORTs (Force of Rapid Transformation) serve as world-class Open Industrial Innovation Ecosystems, offering comprehensive deep technical infrastructure, services and resources to seed, nurture, and accelerate the development of technologically advanced innovations into industrial-grade solutions ready for deployment at scale, and into commercially viable products, thereby creating a deep impact to both the technology and manufacturing sectors in Tamil Nadu simultaneously.</p>
+                        <p>Housed at Forge.Factory - Forge’s headquarters in Coimbatore, TN’s foremost industrial hub, the HWjunction is an MIT Accredited Digital Fabrication Lab offering digital manufacturing technology through industrial-grade fabrication and flexible computer controlled tools.
+
+                            HWjunction offers a comprehensive suite of infra, facilities and services including coworking spaces & product innovation labs aimed at accelerating hardware and tech innovation, and creating enterprises that harness hardware, software, and computing technologies to solve real-world problems, drive economic growth, and deliver social impact. It can concurrently support the industrial-grade prototyping of 12-15 product innovations simultaneously and has the room to expand concurrent capacity to an additional 10-15 product innovations.</p>
                         <button className="btn btn">Get In Touch</button>
                     </div>
-                    <img src={forthosur} alt="" />
+                    <img src={fortMap} alt="" />
                 </div>
                 {/* Content for Tab 3 */}
                 <div
@@ -118,7 +121,16 @@ const Tab1 = () => {
                     aria-labelledby="contact-tab"
                     tabIndex="0"
                 >
-                    haah
+                    <div className="d-flex flex-column align-items-start gap-2 w-50">
+                        <div className="head ">
+                            HWjunction @ HQ, Forge
+                        </div>
+                        <p>Housed at Forge.Factory - Forge’s headquarters in Coimbatore, TN’s foremost industrial hub, the HWjunction is an MIT Accredited Digital Fabrication Lab offering digital manufacturing technology through industrial-grade fabrication and flexible computer controlled tools.
+
+                            HWjunction offers a comprehensive suite of infra, facilities and services including coworking spaces & product innovation labs aimed at accelerating hardware and tech innovation, and creating enterprises that harness hardware, software, and computing technologies to solve real-world problems, drive economic growth, and deliver social impact. It can concurrently support the industrial-grade prototyping of 12-15 product innovations simultaneously and has the room to expand concurrent capacity to an additional 10-15 product innovations.</p>
+                        <button className="btn btn">Get In Touch</button>
+                    </div>
+                    <img src={innovateMap} alt="" />
                 </div>
             </div>
         </section>

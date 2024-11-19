@@ -1,4 +1,6 @@
+import Acceleration from "./components/Acceleration"
 import Banner from "./components/Banner"
+import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Impact from "./components/Impact"
 import IndiaLargest from "./components/IndiaLargest"
@@ -17,6 +19,8 @@ function App() {
       <Partners />
       <Impact />
       <TechnologyInfrastructure />
+      <Acceleration />
+      <Footer />
     </>
   )
 }

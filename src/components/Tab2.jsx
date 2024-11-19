@@ -8,6 +8,15 @@ import labs03 from "../assets/labs-03.png"
 import "swiper/css/navigation";
 
 
+import innoProduct from "../assets/Images/Product Innovation Labs.gif"
+import indusRobo from "../assets/Images/Industrial Robotics & Cobotics.gif"
+import electronicsDesign from "../assets/Images/Electronics Design Test & Verification.gif"
+import acceleratedSys from "../assets/Images/Accelerated Computing Systems.gif"
+import cyberPhysical from "../assets/Images/Cyber Physical Control System.gif"
+import additiveDesign from "../assets/Images/Additive Manufacturing.gif"
+import electroRapid from "../assets/Images/Electronics Rapid Prototyping.gif"
+
+
 const Tab1 = () => {
     const [activeTab, setActiveTab] = useState(0);
 
@@ -114,28 +123,49 @@ const Tab1 = () => {
                                 {/* Slides */}
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-start">
-                                        <img src={labs01} alt="" />
+                                        <img src={indusRobo} alt="" width={280} />
                                         <h4 className="text-dark-orange">Automation & Robotics</h4>
                                         <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
-                                        <img src={labs01} alt="" />
+                                        <img src={innoProduct} alt="" width={280} />
                                         <h4 className="text-dark-orange">Automation & Robotics</h4>
                                         <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
-                                        <img src={labs01} alt="" />
+                                        <img src={electronicsDesign} alt="" width={280} />
                                         <h4 className="text-dark-orange">Automation & Robotics</h4>
                                         <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
-                                        <img src={labs01} alt="" />
+                                        <img src={acceleratedSys} alt="" width={280} />
+                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <img src={cyberPhysical} alt="" width={280} />
+                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <img src={additiveDesign} alt="" width={280} />
+                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
+                                    </div>
+                                </SwiperSlide>
+                                <SwiperSlide>
+                                    <div className="d-flex flex-column align-items-center">
+                                        <img src={electroRapid} alt="" width={280} />
                                         <h4 className="text-dark-orange">Automation & Robotics</h4>
                                         <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
@@ -164,18 +194,18 @@ const Tab1 = () => {
 
                         <div className="w-100 d-flex col-12 justify-content-between">
                             <div className="col-4 d-flex flex-column align-items-center">
-                                <img src={labs01} alt="" width={100} />
-                                <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                <img src={indusRobo} alt="" width={100} />
+                                <h4 className="text-yellow">Automation & Robotics</h4>
                                 <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                             </div>
                             <div className="col-4 d-flex flex-column align-items-center">
-                                <img src={labs01} alt="" width={100} />
-                                <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                <img src={innoProduct} alt="" width={100} />
+                                <h4 className="text-yellow">Automation & Robotics</h4>
                                 <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                             </div>
                             <div className="col-4 d-flex flex-column align-items-center">
-                                <img src={labs01} alt="" width={100} />
-                                <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                <img src={electronicsDesign} alt="" width={100} />
+                                <h4 className="text-yellow">Automation & Robotics</h4>
                                 <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                             </div>
                         </div>
@@ -201,13 +231,13 @@ const Tab1 = () => {
 
                         <div className="w-100 d-flex col-12 justify-content-between">
                             <div className="col-6 d-flex flex-column align-items-center">
-                                <img src={labs01} alt="" width={100} />
-                                <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                <img src={indusRobo} alt="" width={100} />
+                                <h4 className="text-yellow">Automation & Robotics</h4>
                                 <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                             </div>
                             <div className="col-6 d-flex flex-column align-items-center">
-                                <img src={labs01} alt="" width={100} />
-                                <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                <img src={innoProduct} alt="" width={100} />
+                                <h4 className="text-yellow">Automation & Robotics</h4>
                                 <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                             </div>
 

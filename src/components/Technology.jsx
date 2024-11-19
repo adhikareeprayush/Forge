@@ -2,8 +2,8 @@ import Tab2 from "./Tab2"
 
 const TechnologyInfrastructure = () => {
   return (
-    <section className="technology d-flex flex-column gap-2">
-      <div className="overlay z-0"></div>
+    <section className="technology d-flex flex-column gap-2 mx-2 my-4 rounded-4" id="technical_infrastructure">
+      <div className="overlay z-0 rounded-4"></div>
       <div className="content z-1">
         <div className="head">TECHNOLOGY <br />
           <span className="text-white">INFRASTRUCTURE</span>

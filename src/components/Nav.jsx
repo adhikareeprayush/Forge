@@ -1,4 +1,4 @@
-import logo from "../assets/Image 33.png"
+import logo from "../assets/Images/FORGE Logo (2).png"
 
 const Nav = () => {
     return (
@@ -8,8 +8,8 @@ const Nav = () => {
                 <div className="logo-text" ><span className="text-orange">FORGE.</span>LABS</div>
             </div>
             <ul className="d-flex align-items-center gap-3">
-                <li className="nav-link active">TECHNICAL INFRASTRUCTURE</li>
-                <li className="nav-link">PRODUCT ACCELERATION</li>
+                <a className="nav-link active" href="#technical_infrastructure">TECHNICAL INFRASTRUCTURE</a>
+                <a className="nav-link" href="#acceleration">PRODUCT ACCELERATION</a>
                 <button className="btn btn-orange">Contact</button>
             </ul>
         </nav>

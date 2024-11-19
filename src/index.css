@@ -174,7 +174,7 @@ p {
 }
 
 .tab-1 button img {
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   position: absolute;
   top: 50%;
@@ -289,4 +289,60 @@ span.company-name {
     center/cover;
   color: white;
   position: relative;
+}
+
+.text-yellow {
+  color: #eb9a37 !important;
+}
+
+.acceleration .overlay {
+  background-color: #460809;
+  opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+  background-color: #181819;
+}
+
+.footer .footer-head {
+  font-weight: bold;
+}
+
+.footer-input-container {
+  background-color: #e04f26;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
+  padding: 0px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+
+.footer input {
+  padding: 10px;
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.footer input::placeholder {
+  color: white;
+}
+
+.footer button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0px;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #f1a039;
+  font-weight: bold;
+  cursor: pointer;
 }
