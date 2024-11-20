@@ -7,6 +7,10 @@ import innoLogoFill from "../assets/Images/InnovateTN Logo (2) (1).png";
 import forgefactory from "../assets/Images/FORGE Map.png";
 import fortMap from "../assets/Images/FORT Map.png";
 import innovateMap from "../assets/Images/InnovateTN Map.png";
+import img1 from "../assets/Images/Image 35.png";
+import img2 from "../assets/Images/Image 36.png";
+import img3 from "../assets/Images/Image 37.png";
+import img4 from "../assets/Images/Image 38.png";
 
 import { useState } from "react";
 
@@ -92,6 +96,7 @@ const Tab1 = () => {
                             <button className="btn btn-primary">Get In Touch</button>
                         </div>
                         <div className="col-12 col-lg-6">
+
                             <img src={forgefactory} alt="Forge Factory" className="img-fluid" />
                         </div>
                     </div>
@@ -101,15 +106,13 @@ const Tab1 = () => {
                 <div className={`tab-pane fade ${activeTab === 1 ? "show active" : ""}`}>
                     <div className="row g-4 align-items-center">
                         <div className="col-12 col-lg-6">
-                            <h3 className="head">HWjunction @ HQ, Fort</h3>
+                            <h3 className="head">Force of Rapid Transformation - SIPCOT Industrial Innovation Centres</h3>
                             <p>
-                                HWjunction offers a comprehensive suite of infra, facilities and
-                                services including coworking spaces & product innovation labs aimed at
-                                accelerating hardware and tech innovation.
+                                The FORTs (Force of Rapid Transformation) serve as world-class Open Industrial Innovation Ecosystems, offering comprehensive deep technical infrastructure, services and resources to seed, nurture, and accelerate the development of technologically advanced innovations into industrial-grade solutions ready for deployment at scale, and into commercially viable products, thereby creating a deep impact to both the technology and manufacturing sectors in Tamil Nadu simultaneously.
                             </p>
                             <button className="btn btn-primary">Get In Touch</button>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6 position-relative">
                             <img src={fortMap} alt="Fort Map" className="img-fluid" />
                         </div>
                     </div>
@@ -119,14 +122,14 @@ const Tab1 = () => {
                 <div className={`tab-pane fade ${activeTab === 2 ? "show active" : ""}`}>
                     <div className="row g-4 align-items-center">
                         <div className="col-12 col-lg-6">
-                            <h3 className="head">HWjunction @ HQ, InnovateTN</h3>
+                            <h3 className="head">InnovateTN</h3>
                             <p>
-                                It can concurrently support the industrial-grade prototyping of
-                                12-15 product innovations and has room to expand capacity.
+                                IThe InnovateTN labs across 4 cities in TN operate as self-contained Integrated Industrial Innovation Labs, creating a robust innovation ecosystem in and around these industrial hubs. by leveraging an Open Innovation Model for government, MSMEs, technology providers, academia, R&D, innovators & startup entrepreneurs, investors, and incubators to collaborate and co-create industry-oriented cutting-edge technology solutions
                             </p>
                             <button className="btn btn-primary">Get In Touch</button>
                         </div>
-                        <div className="col-12 col-lg-6">
+                        <div className="col-12 col-lg-6 position-relative tab-1-3">
+
                             <img src={innovateMap} alt="InnovateTN Map" className="img-fluid" />
                         </div>
                     </div>

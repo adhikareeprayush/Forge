@@ -128,22 +128,25 @@ const Tab1 = () => {
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={indusRobo} alt="" width={280} />
-                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">INDUSTRIAL ROBOTICS
+                                            & COBOTICS</h4>
                                         <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={innoProduct} alt="" width={280} />
-                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
-                                        <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
+                                        <h4 className="text-dark-orange text-center">ELECTRONICS DESIGN,
+                                            TEST & VERIFICATION</h4>
+                                        <p className="text-center"> Multifunctional & Mixed-Signal Oscilloscopes, Function/Signal Generator Network/Spectrum Analysers, Industrial Grade Simulators</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={electronicsDesign} alt="" width={280} />
-                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
-                                        <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
+                                        <h4 className="text-dark-orange text-center">INDUSTRIAL DESIGN &
+                                            FABRICATION</h4>
+                                        <p className="text-center">Machining Workbench Tools, Power Tools & Laser Cutters Advanced CAD/CAM/CAE Design & Simulation Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
@@ -188,33 +191,34 @@ const Tab1 = () => {
                 >
                     <div className="d-flex flex-column align-items-center gap-2 w-100">
                         <div className="head text-uppercase d-flex flex-column align-items-center w-100 text-center">
-                            <span>Product innovation labs</span>
-                            <h3>Product Design & Development</h3>
+                            <span>Product Compliance Labs</span>
+                            <h3>Product Verification, Validation & Pre-Certification</h3>
                         </div>
                         <p className="text-center px-3 px-md-5">
-                            Product Innovation Labs help startups, industrial companies, and student innovators with product design & development of industrial solutions. The Product Innovation Labs comprise of machineries & equipment in the following 8 Industrial Technology Domains:
+                            Product Compliance Lab provides the necessary resources and services to verify, validate, and pre-certify products, ensuring they meet regulatory & industry standards. By facilitating rigorous testing and compliance checks, the lab helps innovators and startups navigate the complex approval processes efficiently, reducing time to market and mitigating risks associated with non-compliance.
                         </p>
 
                         <div className="row w-100 justify-content-center">
                             <div className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
                                 <img src={indusRobo} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Mechanical Compliance</h4>
                                 <p className="text-center px-2">
-                                    6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
+                                    Vibration Testing, Sound Level Testing, Coating Thickness Measurement, Dimensional Measurements, Flaw Detection, Ingress Protection Test Chambers, and Coordinate Measurement Machines
+                                </p>
+                            </div>
+
+                            <div className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
+                                <img src={electronicsDesign} alt="Automation & Robotics" className="img-fluid" width={100} />
+                                <h4 className="text-yellow text-center mt-3">Electronics Compliance</h4>
+                                <p className="text-center px-2">
+                                    Flying Probe Testing and EMC/EMI Testing & Compliance
                                 </p>
                             </div>
                             <div className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
                                 <img src={innoProduct} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Electrical Compliance</h4>
                                 <p className="text-center px-2">
-                                    6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
-                                </p>
-                            </div>
-                            <div className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
-                                <img src={electronicsDesign} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
-                                <p className="text-center px-2">
-                                    6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
+                                    ESG Testing, Hipot Testing, Earth Testing, Current Leakage Testing, Harmonic Analysis, Battery Testing, and Motor Analysis
                                 </p>
                             </div>
                         </div>
@@ -242,16 +246,16 @@ const Tab1 = () => {
                         <div className="row w-100 justify-content-center">
                             <div className="col-12 col-md-6 d-flex flex-column align-items-center mb-4">
                                 <img src={indusRobo} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Electronics Manufacturing</h4>
                                 <p className="text-center px-2">
-                                    6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
+                                    PCB Design, Fabrication & Assembly
                                 </p>
                             </div>
                             <div className="col-12 col-md-6 d-flex flex-column align-items-center">
-                                <img src={innoProduct} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
+                                <img src={electronicsDesign} alt="Automation & Robotics" className="img-fluid" width={100} />
+                                <h4 className="text-yellow text-center mt-3">Mechanical Fabrication</h4>
                                 <p className="text-center px-2">
-                                    6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
+                                    Covering both additive and subtractive manufacturing processes, the facilities include Vertical Milling Centres, MIG, TIG, and Arc welding machines, sheet metal cutting machines, turning machines, vacuum casting, and dough moulding
                                 </p>
                             </div>
                         </div>
@@ -260,7 +264,7 @@ const Tab1 = () => {
 
 
             </div>
-        </div>
+        </div >
     );
 };
 

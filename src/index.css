@@ -504,11 +504,6 @@ span.company-name {
   max-width: 1000px;
 }
 
-/* Nav */
-nav .logo-text {
-  font-size: 1.2rem !important;
-}
-
 .tab-content .head {
   font-size: 1.5rem !important;
 }
@@ -558,6 +553,10 @@ nav .logo-text {
   .tab-3 .content-container p {
     text-align: center !important;
   }
+
+  .forge-orange {
+    width: 150px;
+  }
 }
 
 @media (max-width: 920px) {
@@ -570,4 +569,50 @@ nav .logo-text {
     align-items: center !important;
     justify-content: center !important;
   }
+}
+
+.footer-input-container input {
+  background-color: #e04f26 !important;
+  color: white !important;
+}
+
+.footer-input-container input:focus {
+  background-color: #e04f26 !important;
+  border: none;
+  color: white !important;
+  outline: none;
+}
+
+.forge-orange {
+  width: 200px;
+  object-fit: contain;
+}
+
+.image-container-tab1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+
+.image-container-tab1 img {
+  width: 60px !important;
+  object-fit: contain;
+}
+
+@media (max-width: 420px) {
+  .image-container-tab1 img {
+    width: 40px !important;
+    object-fit: contain;
+  }
+}
+
+.tab-1-3 .image-container-tab1 img {
+  width: 100px !important;
+  object-fit: contain;
+}
+
+.tab-1-3 .image-container-tab1 img:nth-child(1) {
+  /* // multiply blend */
+  mix-blend-mode: multiply !important;
 }

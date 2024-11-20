@@ -1,4 +1,4 @@
-import logo from "../assets/Images/FORGE Logo (2).png";
+import logo from "../assets/Images/navlogo.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from "react";
 
@@ -7,7 +7,7 @@ const Nav = () => {
 
     return (
         <nav className="d-flex align-items-center justify-content-between px-md-5 py-md-4 px-3 py-4 w-100">
-            <div className="d-flex align-items-center gap-2">
+            <div className="d-flex align-items-center gap-3">
                 <img src={logo} alt="" className="logo" />
                 <div className="logo-text">
                     <span className="text-orange">FORGE.</span>LABS

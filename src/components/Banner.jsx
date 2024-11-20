@@ -1,10 +1,12 @@
+import forgeLabs from "../assets/Images/FORGE Labs.png"
+
 const Banner = () => {
     return (
         <section className="banner py-5 w-100">
             <div className="row w-100 align-items-center">
                 {/* Headline */}
-                <div className="col-12 col-md-4 text-center text-md-start mb-4 mb-md-0">
-                    <span className="head d-block">FORGE.LABS</span>
+                <div className="col-12 col-md-4 text-center d-flex text-md-start align-items-start ">
+                    <img src={forgeLabs} alt="" className="forge-orange" />
                 </div>
                 {/* Description */}
                 <div className="col-12 col-md-8">
