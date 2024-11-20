@@ -8,7 +8,7 @@ const Acceleration = () => {
                 <div className="head">
                     <span className="text-white">PRODUCT <br />ACCELERATION</span>
                 </div>
-                <p className="w-75 mx-auto text-center">
+                <p className="mx-auto text-center head-p">
                     Supplementing its world-class technical infrastructure, Forge.Labs also provides the requisite processes, tools, techniques, and technical expertise applied in product development to help innovators build industry-grade products that achieve Product-Market Fit in the shortest time, at the lowest cost, and with minimal risk.
                 </p>
                 <Tab3 />

@@ -6,7 +6,7 @@ const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="d-flex align-items-center justify-content-between px-5 py-4 w-100">
+        <nav className="d-flex align-items-center justify-content-between px-md-5 py-md-4 px-3 py-4 w-100">
             <div className="d-flex align-items-center gap-2">
                 <img src={logo} alt="" className="logo" />
                 <div className="logo-text">
