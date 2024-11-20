@@ -65,7 +65,7 @@ const Tab3 = () => {
                 >
                     <div className="d-flex flex-column align-items-center gap-4 w-100 px-3">
                         <div className="text-center">
-                            <span className="text-uppercase d-block">PRODUCT ADVISORY</span>
+                            <h3 className="text-uppercase d-block">PRODUCT ADVISORY</h3>
                             <h3>Accelerating the Translation of Industrial Tech IPs into Commercial Products</h3>
                         </div>
                         <p className="text-center">
@@ -121,7 +121,7 @@ const Tab3 = () => {
                 >
                     <div className="d-flex flex-column align-items-center gap-4 w-100 px-3">
                         <div className="text-center">
-                            <span className="text-uppercase d-block">PRODUCT DEVELOPMENT SUPPORT</span>
+                            <h3 className="text-uppercase d-block">PRODUCT DEVELOPMENT SUPPORT</h3>
                             <h3 className="text-white">Accelerating the Translation of Industrial Tech IPs into Commercial Products</h3>
                         </div>
                         <p className="text-center">
@@ -131,7 +131,7 @@ const Tab3 = () => {
                             {[indusRobo, innoProduct, electronicsDesign].map((imgSrc, index) => (
                                 <div key={index} className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
                                     <img src={imgSrc} alt={`Feature ${index + 1}`} className="img-fluid" width={100} />
-                                    <h4 className="text-yellow mt-3">Automation & Robotics</h4>
+                                    <h4 className="text-yellow mt-3 text-center">Automation & Robotics</h4>
                                     <p className="text-center">
                                         6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
                                     </p>

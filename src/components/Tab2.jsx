@@ -126,51 +126,51 @@ const Tab1 = () => {
                             >
                                 {/* Slides */}
                                 <SwiperSlide>
-                                    <div className="d-flex flex-column align-items-start">
+                                    <div className="d-flex flex-column align-items-center">
                                         <img src={indusRobo} alt="" width={280} />
-                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
                                         <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={innoProduct} alt="" width={280} />
-                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
                                         <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={electronicsDesign} alt="" width={280} />
-                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
                                         <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={acceleratedSys} alt="" width={280} />
-                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
                                         <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={cyberPhysical} alt="" width={280} />
-                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
                                         <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={additiveDesign} alt="" width={280} />
-                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
                                         <p className="text-center">6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={electroRapid} alt="" width={280} />
-                                        <h4 className="text-dark-orange">Automation & Robotics</h4>
+                                        <h4 className="text-dark-orange text-center">Automation & Robotics</h4>
                                         <p>6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools</p>
                                     </div>
                                 </SwiperSlide>
@@ -198,21 +198,21 @@ const Tab1 = () => {
                         <div className="row w-100 justify-content-center">
                             <div className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
                                 <img src={indusRobo} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
                                 <p className="text-center px-2">
                                     6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
                                 </p>
                             </div>
                             <div className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
                                 <img src={innoProduct} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
                                 <p className="text-center px-2">
                                     6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
                                 </p>
                             </div>
                             <div className="col-12 col-md-4 d-flex flex-column align-items-center mb-4">
                                 <img src={electronicsDesign} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
                                 <p className="text-center px-2">
                                     6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
                                 </p>
@@ -242,14 +242,14 @@ const Tab1 = () => {
                         <div className="row w-100 justify-content-center">
                             <div className="col-12 col-md-6 d-flex flex-column align-items-center mb-4">
                                 <img src={indusRobo} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
                                 <p className="text-center px-2">
                                     6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
                                 </p>
                             </div>
                             <div className="col-12 col-md-6 d-flex flex-column align-items-center">
                                 <img src={innoProduct} alt="Automation & Robotics" className="img-fluid" width={100} />
-                                <h4 className="text-yellow mt-3">Automation & Robotics</h4>
+                                <h4 className="text-yellow text-center mt-3">Automation & Robotics</h4>
                                 <p className="text-center px-2">
                                     6-Axis Multifunctional Industrial Robot, Robotic Controllers, Robotic Design & Build Tools
                                 </p>
