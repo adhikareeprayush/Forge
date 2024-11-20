@@ -97,7 +97,7 @@ const Tab3 = () => {
                                             <div className="col-12 col-md-6 col-xl-4 d-flex justify-content-center">
                                                 <img src={imgSrc} alt={`Slide ${index + 1}`} className="img-fluid" style={{ maxWidth: "300px" }} />
                                             </div>
-                                            <div className="col-12 col-md-6 d-flex flex-column gap-3">
+                                            <div className="col-12 col-md-6 d-flex flex-column gap-3 content-container">
                                                 <h1 className="text-white">Defining the Right PRODUCT</h1>
                                                 <p>
                                                     Defining the Right PRODUCT is essentially about defining the Right Problem/Need, identifying the Right Customer, and offering the Right Value Proposition. This ensures that the right product is built downstream, enabling seamless adoption by customers.

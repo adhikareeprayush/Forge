@@ -537,3 +537,25 @@ nav .logo-text {
     width: 100% !important;
   }
 }
+
+@media (max-width: 760px) {
+  .tab-3 .swiper-container img {
+    width: 100% !important;
+    max-width: 200px !important;
+    object-fit: cover;
+  }
+
+  .tab-3 .swiper-container h1 {
+    text-align: center !important;
+    max-width: 250px;
+  }
+
+  .tab-3 .content-container {
+    align-items: center !important;
+    gap: 0.6rem !important;
+  }
+
+  .tab-3 .content-container p {
+    text-align: center !important;
+  }
+}
