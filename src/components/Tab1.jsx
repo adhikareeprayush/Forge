@@ -88,10 +88,10 @@ const Tab1 = () => {
                         <div className="col-12 col-lg-6">
                             <h3 className="head">HWjunction @ HQ, Forge</h3>
                             <p>
-                                Housed at Forge.Factory - Forge’s headquarters in Coimbatore, TN’s
-                                foremost industrial hub, the HWjunction is an MIT Accredited Digital
-                                Fabrication Lab offering digital manufacturing technology through
-                                industrial-grade fabrication and flexible computer-controlled tools.
+                                Housed at Forge.Factory - Forge’s headquarters in Coimbatore, TN’s foremost industrial hub, the HWjunction is an MIT Accredited Digital Fabrication Lab offering digital manufacturing technology through industrial-grade fabrication and flexible computer controlled tools.
+                                <br />
+                                <br />
+                                HWjunction offers a comprehensive suite of infra, facilities and services including coworking spaces & product innovation labs aimed at accelerating hardware and tech innovation, and creating enterprises that harness hardware, software, and computing technologies to solve real-world problems, drive economic growth, and deliver social impact. It can concurrently support the industrial-grade prototyping of 12-15 product innovations simultaneously and has the room to expand concurrent capacity to an additional 10-15 product innovations.
                             </p>
                             <button className="btn btn-primary">Get In Touch</button>
                         </div>
