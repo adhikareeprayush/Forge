@@ -26,15 +26,15 @@ const Partners = () => {
             </div>
 
             {/* Academia Section */}
-            <div className="mb-5">
-                <div className="d-flex align-items-center gap-3">
+            <div className="mb-5 academia">
+                <div className="d-flex align-items-center gap-3 ">
                     <span className="fw-bold">Academia</span>
                     <div className="hr flex-grow-1 bg-dark" style={{ height: "2px" }}></div>
                 </div>
                 <div className="row g-3 mt-3">
                     {/* Fab Foundation */}
                     <div className="col-12 col-md-6 col-lg-4 text-center">
-                        <img src={fabFoundation} alt="Fab Foundation" className="img-fluid" />
+                        <img src={fabFoundation} alt="Fab Foundation" className="img-fluid" style={{ minWidth: "100%" }} />
                     </div>
 
                     {/* Other Partners */}

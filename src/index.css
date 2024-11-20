@@ -524,3 +524,16 @@ nav .logo-text {
     padding: 50px 40px;
   }
 }
+
+@media (max-width: 760px) {
+  .partners .academia img {
+    max-width: 100px !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .partners .academia img:nth-child(1) {
+    width: 100% !important;
+  }
+}
