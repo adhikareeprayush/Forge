@@ -18,7 +18,7 @@ const Tab3 = () => {
     };
 
     return (
-        <div className="tab-2 tab-3 d-flex flex-column align-items-center justify-content-between gap-4">
+        <div className="tab-2 tab-3 d-flex flex-column align-items-center  justify-content-center gap-4">
             {/* Tabs Navigation */}
             <ul className="nav nav-tabs border-0 justify-content-start gap-3 gap-md-5" id="myTab" role="tablist">
                 <li className="nav-item" role="presentation">

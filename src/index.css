@@ -565,4 +565,9 @@ nav .logo-text {
   .tab-3 button {
     padding: 10px 20px !important;
   }
+
+  .tab-3 .nav-tabs {
+    align-items: center !important;
+    justify-content: center !important;
+  }
 }
