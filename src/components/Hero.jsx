@@ -11,7 +11,7 @@ const Hero = () => {
                 </h1>
                 <p className="hero-desc">
                     Developing, Advancing, Applying Discoveries and Breakthroughs To Drive
-                    Innovation-Catalysed, Enduring Competitive Advantages
+                    Innovation Catalysed, Enduring Competitive Advantages
                 </p>
             </div>
         </div>
