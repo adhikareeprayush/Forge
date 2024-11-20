@@ -65,7 +65,7 @@ const Tab3 = () => {
                 >
                     <div className="d-flex flex-column align-items-center gap-4 w-100 px-3">
                         <div className="text-center">
-                            <h3 className="text-uppercase d-block">PRODUCT ADVISORY</h3>
+                            <h3 className="text-uppercase d-block text-dark-orange">PRODUCT ADVISORY</h3>
                             <h3>Accelerating the Translation of Industrial Tech IPs into Commercial Products</h3>
                         </div>
                         <p className="text-center">
@@ -121,7 +121,7 @@ const Tab3 = () => {
                 >
                     <div className="d-flex flex-column align-items-center gap-4 w-100 px-3">
                         <div className="text-center">
-                            <h3 className="text-uppercase d-block">PRODUCT DEVELOPMENT SUPPORT</h3>
+                            <h3 className="text-uppercase d-block text-dark-orange">PRODUCT DEVELOPMENT SUPPORT</h3>
                             <h3 className="text-white">Accelerating the Translation of Industrial Tech IPs into Commercial Products</h3>
                         </div>
                         <p className="text-center">

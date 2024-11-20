@@ -559,3 +559,10 @@ nav .logo-text {
     text-align: center !important;
   }
 }
+
+@media (max-width: 920px) {
+  .tab-2,
+  .tab-3 button {
+    padding: 10px 20px !important;
+  }
+}
